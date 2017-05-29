@@ -21,10 +21,10 @@ namespace TestBindingBehaviour.Controllers
             }
             else
             {
-                name = "username";
+                name = username;
                 bio = "Username was Passed";
-
             }
+
             var model = new TestModel()
             {
                 Bio = bio,
